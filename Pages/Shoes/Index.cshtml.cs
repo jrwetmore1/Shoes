@@ -12,7 +12,7 @@ namespace FinalProject.Pages.Shoes
     public class IndexModel : PageModel
     {
         private readonly FinalProject.Models.ShoeDbContext _context;
-        private const int PageSize = 10; // Number of records per page
+        private const int PageSize = 10;
 
         public IndexModel(FinalProject.Models.ShoeDbContext context)
         {

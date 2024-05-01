@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/yeojw/CIDM3312N/Shoes/Pages/Shoes/AddShop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvZXNcQWRkU2hvcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yeojw/CIDM3312N/Shoes/Pages/Shoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
