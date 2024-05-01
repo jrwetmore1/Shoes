@@ -19344,8 +19344,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\yeojw\\CIDM3312N\\Shoes\\Pages\\Shoes\\Delete.cshtml",
+      "TargetPath": "Pages\\Shoes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\yeojw\\CIDM3312N\\Shoes\\Pages\\Shoes\\Details.cshtml",
+      "TargetPath": "Pages\\Shoes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\yeojw\\CIDM3312N\\Shoes\\Pages\\Shoes\\Create.cshtml",
+      "TargetPath": "Pages\\Shoes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\yeojw\\CIDM3312N\\Shoes\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\yeojw\\CIDM3312N\\Shoes\\Pages\\Shoes\\Index.cshtml",
+      "TargetPath": "Pages\\Shoes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\yeojw\\CIDM3312N\\Shoes\\Pages\\Shoes\\Edit.cshtml",
+      "TargetPath": "Pages\\Shoes\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
