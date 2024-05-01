@@ -10,6 +10,6 @@ namespace FinalProject.Models
         [StringLength(60, MinimumLength = 1)]
         public string Description {get; set;} = string.Empty;
         public int ShoeId {get; set;}
-        public Shoe Shoe {get; set;} = default!;
+        public Shoe? Shoe {get; set;}
     }
 }

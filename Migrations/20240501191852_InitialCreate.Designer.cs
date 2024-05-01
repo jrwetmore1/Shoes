@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Shoes.Migrations
 {
     [DbContext(typeof(ShoeDbContext))]
-    [Migration("20240501141022_InitialCreate")]
+    [Migration("20240501191852_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -28,10 +28,12 @@ namespace Shoes.Migrations
 
                     b.Property<string>("Color")
                         .IsRequired()
+                        .HasMaxLength(60)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
                         .IsRequired()
+                        .HasMaxLength(60)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Price")
@@ -54,6 +56,7 @@ namespace Shoes.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
+                        .HasMaxLength(60)
                         .HasColumnType("TEXT");
 
                     b.Property<int>("ShoeId")

@@ -17,8 +17,8 @@ namespace Shoes.Migrations
                 {
                     ShoeId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Name = table.Column<string>(type: "TEXT", nullable: false),
-                    Color = table.Column<string>(type: "TEXT", nullable: false),
+                    Name = table.Column<string>(type: "TEXT", maxLength: 60, nullable: false),
+                    Color = table.Column<string>(type: "TEXT", maxLength: 60, nullable: false),
                     Price = table.Column<string>(type: "TEXT", nullable: false),
                     ReleaseDate = table.Column<DateTime>(type: "TEXT", nullable: false)
                 },
@@ -33,7 +33,7 @@ namespace Shoes.Migrations
                 {
                     ShopId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Description = table.Column<string>(type: "TEXT", nullable: false),
+                    Description = table.Column<string>(type: "TEXT", maxLength: 60, nullable: false),
                     ShoeId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>

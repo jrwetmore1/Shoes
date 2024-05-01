@@ -35,6 +35,22 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Shoe.ReleaseDate)
         </dd>
+        @foreach (var r in Model.Shoe.Shops)
+        {
+            <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => r.Description)
+        </dt>
+        <dd class="col-sm-1">
+            @Html.DisplayFor(model => r.Description)
+        </dd>
+        <!-- Form with button to delete each shop -->
+            <dt class="col-sm-9">
+                <form method="post">
+                    <input type="hidden" asp-for="ShopIdToDelete" value="@r.ShopId" />
+                    <input type="submit" asp-page-handler="DeleteShop" asp-route-id="@Model.Shoe.ShoeId" value="Delete Shop" class="btn btn-danger btn-sm" />
+                </form>
+            </dt>
+        }
     </dl>
 </div>
 <div>

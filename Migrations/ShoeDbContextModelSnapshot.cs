@@ -25,10 +25,12 @@ namespace Shoes.Migrations
 
                     b.Property<string>("Color")
                         .IsRequired()
+                        .HasMaxLength(60)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
                         .IsRequired()
+                        .HasMaxLength(60)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Price")
@@ -51,6 +53,7 @@ namespace Shoes.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
+                        .HasMaxLength(60)
                         .HasColumnType("TEXT");
 
                     b.Property<int>("ShoeId")

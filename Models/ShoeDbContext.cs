@@ -11,6 +11,5 @@ namespace FinalProject.Models
 		}
 		public DbSet<Shoe> Shoe {get; set;}
 		public DbSet<Shop> Shop {get; set;}
-		
 	}
 }
